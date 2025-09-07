@@ -1,0 +1,26 @@
+{
+  "url": "https://example.com/job/senior-devops-engineer",
+  "title": "Senior DevOps Engineer",
+  "company": "TechCorp Inc",
+  "location": "Remote (US)",
+  "description": "We are seeking a Senior DevOps Engineer to join our platform team. You will be responsible for designing, implementing, and maintaining our cloud infrastructure and deployment pipelines.\n\nResponsibilities:\n- Manage and scale Kubernetes clusters on AWS\n- Implement Infrastructure as Code using Terraform\n- Build and maintain CI/CD pipelines with GitLab\n- Monitor production systems and implement observability solutions\n- Collaborate with development teams on deployment strategies\n- Participate in on-call rotation with compensation\n- Lead incident response and post-mortem processes\n\nRequirements:\n- 5+ years of DevOps/SRE experience\n- Strong experience with AWS (EKS, EC2, RDS, IAM)\n- Proficiency in Terraform and Infrastructure as Code\n- Experience with Kubernetes and Docker\n- Knowledge of monitoring tools (CloudWatch, Prometheus, Grafana)\n- Python or Bash scripting skills\n- Experience with GitLab CI/CD or similar\n- Understanding of security best practices\n\nWhat we offer:\n- Competitive salary $120,000-$150,000\n- Comprehensive health, dental, and vision insurance\n- 401k with 6% company matching\n- Flexible remote work with home office budget\n- Professional development budget ($3,000/year)\n- On-call compensation and reasonable rotation\n- Blameless post-mortem culture\n- Generous PTO and mental health days",
+  "salary_range": "$120,000-$150,000",
+  "requirements": [
+    "5+ years of DevOps/SRE experience",
+    "Strong experience with AWS (EKS, EC2, RDS, IAM)",
+    "Proficiency in Terraform and Infrastructure as Code",
+    "Experience with Kubernetes and Docker",
+    "Knowledge of monitoring tools (CloudWatch, Prometheus, Grafana)",
+    "Python or Bash scripting skills"
+  ],
+  "benefits": [
+    "Competitive salary $120,000-$150,000",
+    "Comprehensive health, dental, and vision insurance",
+    "401k with 6% company matching",
+    "Flexible remote work with home office budget",
+    "Professional development budget ($3,000/year)",
+    "On-call compensation and reasonable rotation"
+  ],
+  "posted_date": "2025-01-01T00:00:00",
+  "raw_text": "Senior DevOps Engineer TechCorp Inc Remote AWS Kubernetes Terraform GitLab CI/CD monitoring Python infrastructure as code"
+}

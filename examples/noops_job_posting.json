@@ -1,0 +1,23 @@
+{
+  "url": "https://noops-startup.com/careers/fullstack-engineer",
+  "title": "Full Stack Engineer - Own Your Infrastructure",
+  "company": "NoOps Innovations",
+  "location": "San Francisco, CA / Remote",
+  "description": "Join our revolutionary NoOps engineering team where developers truly own everything from code to cloud!\n\nWe believe DevOps is a culture, not a role. That's why we've eliminated dedicated operations teams and empower our full-stack engineers to deploy and maintain their own services using modern developer-friendly tools.\n\nWhat you'll do:\n- Build amazing user experiences with React and Node.js\n- Define infrastructure using AWS CDK (TypeScript)\n- Deploy and monitor your own microservices\n- Participate in on-call rotation for services you build\n- Move fast and break things in true startup fashion\n- Wear many hats and take ownership end-to-end\n\nRequirements:\n- 3+ years full-stack development experience\n- Strong TypeScript/JavaScript skills\n- Experience with React and Node.js\n- AWS CDK or Pulumi knowledge preferred\n- Startup mentality and willingness to learn\n- No operations experience required - we'll teach you!\n\nWhat we offer:\n- Competitive salary (we'll discuss based on experience)\n- Equity in a fast-growing startup\n- Flexible hours (sometimes means working nights/weekends)\n- Free snacks and ping pong table\n- Move fast, ship often culture\n\nWe're looking for rockstar developers who can hit the ground running!",
+  "salary_range": null,
+  "requirements": [
+    "3+ years full-stack development experience",
+    "Strong TypeScript/JavaScript skills",
+    "Experience with React and Node.js",
+    "AWS CDK or Pulumi knowledge preferred",
+    "Startup mentality and willingness to learn"
+  ],
+  "benefits": [
+    "Competitive salary (we'll discuss based on experience)",
+    "Equity in a fast-growing startup",
+    "Flexible hours",
+    "Free snacks and ping pong table"
+  ],
+  "posted_date": "2025-01-01T00:00:00",
+  "raw_text": "NoOps Full Stack Engineer AWS CDK developers own infrastructure DevOps is culture not role move fast break things rockstar"
+}
