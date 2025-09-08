@@ -4,26 +4,56 @@ description: 'DevOps/SRE Job Analysis Instructions - Guidelines for analyzing jo
 
 # DevOps/SRE Job Analysis Instructions
 
-## File Organization Standards
+## Multi-Phase Analysis Approach
+
+### Analysis Phases
+1. **Mass URL Scrape**: Extract all job URLs from search results with minimal processing
+2. **Quick Pass Filtering**: Basic company/role screening to create shortlist
+3. **Deep Dive Analysis**: Full verification and scoring for shortlisted positions
+
+### Brent's "Good Enough" Job Philosophy & Salary Target
+- **Current Salary**: ~$147,000/year
+- **Target Salary Range**: **$145,000 - $155,000** (sweet spot for work-life balance)
+- **Hard Ceiling**: Any salary listed above **$160,000** is a **major red flag** (implies high-pressure, "golden handcuffs" expectations)
+- **Company Preference**: Mid-sized, stable companies, "boring" enterprise IT over hypergrowth unicorns
+- **Red Flag Language**: "Fast-paced," "high visibility," "mission critical heroics," "rockstar," "self-starter with no support"
+
+### Brent-fit Calibration Notes
+- **Prefer**: Mid-sized, stable companies, boring enterprise IT, well-defined DevOps/IaC roles
+- **Neutral**: Growth startups with guardrails, provided they have mature culture and reasonable hours
+- **Avoid**: Hypergrowth unicorns, stealth startups, FAANG+ prestige roles with extreme comp
+- **Reality Check**: Brent is an average DevOps engineer seeking sustainable work, not a 10x hero or startup grinder
 
 ### Project Structure
 ```
 /job-analysis-project/
 ├── analyses/           # Individual job analysis files
+├── url-scrapes/       # Phase 1: Raw URL collections
+├── quick-pass/        # Phase 2: Filtered shortlists
+├── deep-dive/         # Phase 3: Full analyses
 ├── templates/         # Analysis templates
-├── research/          # Company research files
-├── scoring/           # Scoring matrices and criteria
 └── README.md         # Project overview and usage
 ```
 
 ### File Naming Conventions
-- **Job Analyses**: `YYYY-MM-DD_CompanyName_Position.md`
+- **URL Scrapes**: `YYYY-MM-DD_source_raw-urls.md`
+- **Quick Pass**: `YYYY-MM-DD_source_shortlist.md`
+- **Deep Analyses**: `YYYY-MM-DD_CompanyName_Position.md`
 - **Research Files**: `YYYY-MM-DD_CompanyName_research.md`
-- **Scoring Files**: `YYYY-MM-DD_CompanyName_scoring.json`
 
 ## Analysis Documentation Standards
 
-### Required Sections for Job Analysis Files
+### Phase 1: Mass URL Scrape Documentation
+- **URL Collection**: Raw list of job posting URLs with minimal metadata
+- **Source Tracking**: Search parameters, pagination details, timestamp
+- **Volume Metrics**: Total URLs found, pages scraped, any errors
+
+### Phase 2: Quick Pass Documentation  
+- **Filtering Criteria**: Hard disqualifiers applied (clearance, on-site, etc.)
+- **Basic Scoring**: Simple 1-5 scale based on title/company/salary
+- **Shortlist Output**: Top 20-30 URLs for deep analysis
+
+### Phase 3: Deep Dive Documentation
 1. **Job Posting Source** - URL, date found, recruiter info
 2. **Company Verification** - Website, legitimacy checks, background
 3. **Role Analysis** - Scope fit, skill alignment, clarity assessment
